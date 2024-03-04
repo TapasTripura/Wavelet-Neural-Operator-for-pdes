@@ -1,7 +1,14 @@
-# Wavelet-Neural-Operator-for-pdes (WNO)
+# Wavelet-Neural-Operator (WNO)
 This repository contains the python codes of the paper 
   > + Tripura, T., & Chakraborty, S. (2023). Wavelet Neural Operator for solving parametric partial differential equations in computational mechanics problems. Computer Methods in Applied Mechanics and Engineering, 404, 115783. [Article](https://doi.org/10.1016/j.cma.2022.115783)
   > + ArXiv version- "Wavelet neural operator: a neural operator for parametric partial differential equations". The arXiv version can be accessed [here](https://arxiv.org/abs/2205.02191).
+
+## New in version 2.0.0
+```
+ > Added superresolution attribute to the WNO.
+ > Added 3D support to the WNO.
+ > Improved the interface and readability of the codes.
+```
 
 ## Architecture of the wavelet neural operator (WNO). 
 (a) Schematic of the proposed neural operator. (b) A simple WNO with one wavelet kernel integral layer. 
@@ -17,8 +24,9 @@ This repository contains the python codes of the paper
   ![Train in Low resolution](/Github_page_images/Animation_ns_64_3d_1e-4.gif)
   ![Test in High resolution](/Github_page_images/Animation_ns_256_3d_1e-4.gif)
 
-# Files
+## Files
 A short despcription on the files are provided below for ease of readers.
+```
   + `wno1d_advection_III.py`: For 1D wave advection equation (time-independent problem).
   + `wno1d_Advection_time_III.py`: For 1D wave advection equation with time-marching (time-dependent problem).
   + `wno1d_Burger_discontinuous.py`: For 1D Burgers' equation with discontinuous field (time-dependent problem).
@@ -34,6 +42,7 @@ A short despcription on the files are provided below for ease of readers.
   
   + `utils.py` contains some useful functions for data handling (improvised from [FNO paper](https://github.com/zongyi-li/fourier_neural_operator)).
   + `wavelet_convolution.py` contains functions for 1D, 2D, and 3D convolution in wavelet domain.
+```
 
 # Library support
 Following packages are required to be installed to run the above codes:
@@ -46,8 +55,10 @@ Following packages are required to be installed to run the above codes:
 Copy all the data in the folder 'data' and place the folder 'data' inside the same mother folder where the codes are present.	Incase, the location of the data are changed, the correct path should be given.
 
 # Testing
-For performing predictions on new inputs, one can use the 'WNO_testing_(.).py' codes given in the `Testing` folder. The trained models, that were used to produce results for the WNO paper can be found in the following link:
+For performing predictions on new inputs, one can use the 'WNO_testing_(.).py' codes given in the `Testing` folder in previous version. The trained models, that were used to produce results for the WNO paper can be found in the following link:
   > [Models](https://drive.google.com/drive/folders/1scfrpChQ1wqFu8VAyieoSrdgHYCbrT6T?usp=sharing)
+
+However, these trained models are not compatible with the version 2.0.0 codes. Hence, new models need to be trained accordingly.
 
 # Dataset
   + The training and testing datasets for the (i) Burgers equation with discontinuity in the solution field (section 4.1), (ii) 2-D Allen-Cahn equation (section 4.5), and (iii) Weakly-monthly mean 2m air temperature (section 5) are available in the following link:
