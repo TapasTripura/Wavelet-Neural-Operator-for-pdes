@@ -5,10 +5,14 @@ This repository contains the python codes of the paper
 
 # Architecture of the wavelet neural operator (WNO). 
 (a) Schematic of the proposed neural operator. (b) A simple WNO with one wavelet kernel integral layer. 
-![WNO](WNN.png)
+![WNO](/Github_page_images/WNN.png)
 
-# Construction of the parametric space using multiwavelet decomposition.
-![Construction of parameterization space in WNO](WNN_parameter.png)
+# Construction of the parametric space using multi-level wavelet decomposition.
+![Construction of parameterization space in WNO](/Github_page_images/WNN_parameter.png)
+
+# Super resolution using Wavelet Neural Operator.
+![Train in Low resolution](/Github_page_images/Animation_ns_64_3d_1e-4.gif)
+![Test in High resolution](/Github_page_images/Animation_ns_256_3d_1e-4.gif)
 
 # Files
 A short despcription on the files are provided below for ease of readers.
