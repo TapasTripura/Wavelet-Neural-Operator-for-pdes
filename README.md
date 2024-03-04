@@ -44,13 +44,13 @@ A short despcription on the files are provided below for ease of readers.
   + `wavelet_convolution.py` contains functions for 1D, 2D, and 3D convolution in wavelet domain.
 ```
 
-# Library support
+## Essential Python Libraries
 Following packages are required to be installed to run the above codes:
   + [PyTorch](https://pytorch.org/)
   + [PyWavelets - Wavelet Transforms in Python](https://pywavelets.readthedocs.io/en/latest/)
   + [Wavelet Transforms in Pytorch](https://github.com/fbcotter/pytorch_wavelets)
   + [Wavelet Transform Toolbox](https://github.com/v0lta/PyTorch-Wavelet-Toolbox)
-  + Xarray-Grib reader (To read ERA5 data in section 5)(https://docs.xarray.dev/en/stable/getting-started-guide/installing.html?highlight=install)
+  + [Xarray-Grib reader (To read ERA5 data in section 5)](https://docs.xarray.dev/en/stable/getting-started-guide/installing.html?highlight=install)
 
 Copy all the data in the folder 'data' and place the folder 'data' inside the same mother folder where the codes are present.	Incase, the location of the data are changed, the correct path should be given.
 
