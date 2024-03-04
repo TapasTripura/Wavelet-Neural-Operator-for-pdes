@@ -56,13 +56,13 @@ Following packages are required to be installed to run the above codes:
 
 Copy all the data in the folder 'data' and place the folder 'data' inside the same mother folder where the codes are present.	Incase, the location of the data are changed, the correct path should be given.
 
-# Testing
+## Testing
 For performing predictions on new inputs, one can use the 'WNO_testing_(.).py' codes given in the `Testing` folder in previous version. The trained models, that were used to produce results for the WNO paper can be found in the following link:
   > [Models](https://drive.google.com/drive/folders/1scfrpChQ1wqFu8VAyieoSrdgHYCbrT6T?usp=sharing)
 
 However, these trained models are not compatible with the version 2.0.0 codes. Hence, new models need to be trained accordingly.
 
-# Dataset
+## Dataset
   + The training and testing datasets for the (i) Burgers equation with discontinuity in the solution field (section 4.1), (ii) 2-D Allen-Cahn equation (section 4.5), and (iii) Weakly-monthly mean 2m air temperature (section 5) are available in the following link:
     > [Dataset-1](https://drive.google.com/drive/folders/1scfrpChQ1wqFu8VAyieoSrdgHYCbrT6T?usp=sharing) \
 The dataset for the Weakly and monthly mean 2m air temperature are downloaded from 'European Centre for Medium-Range Weather Forecasts (ECMEF)' database. For more information on the dataset one can browse the link 
@@ -72,7 +72,7 @@ The dataset for the Weakly and monthly mean 2m air temperature are downloaded fr
   + The datasets for 2-D Darcy flow equation with a notch in triangular domain ('Darcy_Triangular_FNO.mat') and 1-D time-dependent wave advection equation are taken from the following link:
     > [Dataset-3](https://github.com/lu-group/deeponet-fno/tree/main/data)
 
-# BibTex
+## BibTex
 If you use any part our codes, please cite us at,
 ```
 @article{tripura2023wavelet,
