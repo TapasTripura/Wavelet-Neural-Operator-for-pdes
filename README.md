@@ -39,6 +39,8 @@ A short despcription on the files are provided below for ease of readers.
   + `wno2d_Temperature_Daily_Avg.py`: For forecasting daily averaged 2m air temperature (time-dependent problem).
   + `wno2d_Temperature_Monthly_Avg.py`: For forecasting monthly averaged 2m air temperature (time-independent problem).
   + `wno3d_NS.py`: For 2D Navier-Stokes equation using 3D WNO (as a time-independent problem).
+
+  + `Test_wno_super_1d_Burgers.py`: An example of Testing on new data with supersolution.
   
   + `utils.py` contains some useful functions for data handling (improvised from [FNO paper](https://github.com/zongyi-li/fourier_neural_operator)).
   + `wavelet_convolution.py` contains functions for 1D, 2D, and 3D convolution in wavelet domain.
