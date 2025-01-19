@@ -22,17 +22,17 @@ This repository contains the python codes of the paper
 
 ## Architecture of the wavelet neural operator (WNO). 
 (a) Schematic of the proposed neural operator. (b) A simple WNO with one wavelet kernel integral layer. 
-![WNO](/'Version 2.0.0'/Github_page_images/WNN.png)
+![WNO](/Github_page_images/WNN.png)
 
 ## Construction of the parametric space using multi-level wavelet decomposition.
-![Construction of parameterization space in WNO](/'Version 2.0.0'/Github_page_images/WNN_parameter.png)
+![Construction of parameterization space in WNO](/Github_page_images/WNN_parameter.png)
 
 ## Super resolution using Wavelet Neural Operator.
   > Super resolution in Burgers' diffusion dynamics:
-  ![Train at resolution-1024 and Test at resolution-2048](/'Version 2.0.0'/Github_page_images/Burgers_prediction.png)
+  ![Train at resolution-1024 and Test at resolution-2048](/Github_page_images/Burgers_prediction.png)
   > Super resolution in Navier-Stokes equation with 10000 Reynolds number:
-  ![Train in Low resolution](/'Version 2.0.0'/Github_page_images/Animation_ns_64_3d_1e-4.gif)
-  ![Test in High resolution](/'Version 2.0.0'/Github_page_images/Animation_ns_256_3d_1e-4.gif)
+  ![Train in Low resolution](/Github_page_images/Animation_ns_64_3d_1e-4.gif)
+  ![Test in High resolution](/Github_page_images/Animation_ns_256_3d_1e-4.gif)
 
 ## Files
 A short despcription on the files are provided below for ease of readers. For `time-dependent` problems, please implement the autoregressive schemes provided in `Version 2.0.0`.
